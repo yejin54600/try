@@ -1,1 +1,84 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Math Puzzle</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="top-bar">
+        <div class="icon">🏠</div>
+
+        <div class="title">
+
+            <h2>Math Puzzle</h2>
+
+            <p>ضع الأرقام الصحيحة</p>
+
+        </div>
+
+        <div class="icon">⚙️</div>
+
+    </div>
+
+    <div class="question-card">
+
+        <div class="result">
+
+            = <span id="target">0</span>
+
+        </div>
+
+        <div class="equation">
+
+            <div class="box" data-index="0"></div>
+
+            <span class="operator" id="op1">+</span>
+
+            <div class="box" data-index="1"></div>
+
+            <span class="operator" id="op2">−</span>
+
+            <div class="box" data-index="2"></div>
+
+            <span class="operator" id="op3">×</span>
+
+            <div class="box" data-index="3"></div>
+
+        </div>
+
+    </div>
+
+    <div class="numbers" id="numbers">
+
+    </div>
+
+    <div class="actions">
+
+        <button id="deleteBtn">
+            حذف
+        </button>
+
+        <button id="checkBtn">
+            تحقق
+        </button>
+
+    </div>
+
+    <div class="message" id="message"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
